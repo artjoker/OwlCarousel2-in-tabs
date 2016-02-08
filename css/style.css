@@ -1,0 +1,85 @@
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p, span, strong, em, i{word-wrap:break-word;}
+img{border-style:none;max-width: 100%;}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{text-decoration:underline;}
+input, textarea, select {
+	font:12px/14px Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#000;
+	outline:none;
+}
+::-webkit-input-placeholder{color:#000;}
+:-moz-placeholder{color:#000;}
+
+
+html, body{
+	height: 100%;
+}
+.page_wrapper {
+	min-height: 100%;
+}
+body{
+	margin:0;
+	color:#000;
+	font:12px/14px Arial, Helvetica, sans-serif;
+	background:#fff;
+}
+.noscript{
+	position: fixed;
+	top: 0;
+	padding: 10px 0 10px 30px;
+	background: #fff;
+	font-size: 14px;
+	width: 100%;
+	z-index: 99999;
+	text-align: center;
+}
+noscript a{
+	color: red;
+	text-decoration: underline;
+}
+noscript a:hover{
+	text-decoration: none;
+}
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+h2{margin: 0 0 30px;}
+
+
+/*=====================START-TAB===========================*/
+.holder_tabs{margin: 30px 0;}
+.tab-content{padding: 20px;}
+/*=====================END-TAB===========================*/
+
+/*sloder*/
+.owl-carousel .item {
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+}
+
+
+
+
+
+/*======================START-MEDIA=======================*/
+@media (max-width:768px){
+	#nav{padding: 20px 0;}
+	#nav ul li{
+		width: 100%;
+		border-bottom: 1px solid #000;
+	}
+}
